@@ -13,4 +13,4 @@ jobs:
     - name: crunch the numbers
       run: python find_lowest_number.py numbers.txt lowest_number.txt
     - name: Compare expected output to actual. please tell me this works
-      run: diff lowest_number.txt lettherebelight.txt
+      run: diff lowest_number.txt pingas/pingas.txt
